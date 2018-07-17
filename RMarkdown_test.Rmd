@@ -10,7 +10,9 @@ plot(pressure)
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
 ## R Markdown
 ```{r pressure, echo=FALSE}
 plot(pressure)
@@ -20,7 +22,9 @@ This is an R Markdown document. Markdown is a simple formatting syntax for autho
 plot(pressure)
 ```
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
 ```{r cars}
 summary(cars)
 ```
@@ -43,6 +47,12 @@ plot(pressure)
 plot(pressure)
 ```
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
 ```{r pressure, echo=FALSE}
 plot(pressure)
 ```
